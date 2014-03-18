@@ -1,0 +1,16 @@
+Introduction:
+	Opencv python is a library that packages many commonly used, powerful algorithms into easy to use python modules. There is a lot of
+	documentation online at http://docs.opencv.org/.
+
+Installation:
+	In your terminal call: sudo apt-get install python-opencv python-numpy
+	
+Sample Program:
+	I have included two simple sample programs. The first, sample1.py, reads in one image from your webcam and and shows it until you press
+	enter. The second, sample2.py, reads in images and shows them until you press ESC (a video).
+
+Opencv Object:
+	I have made a simple python class that encapsulates all the basic function. To use:
+		from basic_functions import *
+		x = Basic_Functions()
+		x.show_frame()
