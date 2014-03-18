@@ -1,0 +1,3 @@
+#This will install the python verson of opencv and numpy
+#Numpy is the python way to deal with matricies, which is what images are.
+sudo apt-get install python-opencv python-numpy
